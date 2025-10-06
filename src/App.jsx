@@ -13,17 +13,24 @@ function App() {
 
   const handler1 = ()=>{
     inputref.current.focus();
-    inputref.current.style.backgroundcolor ="red"
+    inputref.current.style.background="blue"
+    inputref1.current.style.background=""
+    inputref2.current.style.background =""
     
   }
   const handler2 = ()=>{
     inputref1.current.focus();
-    inputref1.current.style.background ="red"
+    inputref.current.style.background=""
+    inputref1.current.style.background="red"
+    inputref2.current.style.background =""
+
     
   }
   const handler3 = ()=>{
     inputref2.current.focus();
-    inputref2.current.style.backgroundcolor ="red"
+    inputref.current.style.background=""
+    inputref1.current.style.background=""
+    inputref2.current.style.background ="yellow"
     
   }
   return (
